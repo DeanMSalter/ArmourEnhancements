@@ -1,0 +1,10 @@
+name: ArmourEnhancements # the plugins name as it should appear in the plugin list /pl
+version: 1.0 # the plugin's version
+author: Deano3663
+main: McEssence.ArmourEnhancements.Main
+api-version: 1.18
+commands:
+  reload:
+    description: reload ArmourEnhancements
+    usage: /<command>
+    permission: ArmourEnhancements.admin.reload

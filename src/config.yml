@@ -1,0 +1,52 @@
+general:
+  enabled: true
+armourSets:
+  golden:
+    HELMET: GOLDEN_HELMET
+    CHESTPLATE: GOLDEN_CHESTPLATE
+    LEGGINGS: GOLDEN_LEGGINGS
+    BOOTS: GOLDEN_BOOTS
+  leather:
+      HELMET: LEATHER_HELMET
+      CHESTPLATE: LEATHER_CHESTPLATE
+      LEGGINGS: LEATHER_LEGGINGS
+      BOOTS: LEATHER_BOOTS
+effects:
+  golden:
+    1:
+      EFFECTNAME: FAST_DIGGING
+      DURATION: 30
+      LEVEL: 3
+    2:
+      EFFECTNAME: FIRE_RESISTANCE
+      DURATION: 30
+      LEVEL: 0
+    3:
+      EFFECTNAME: SLOW_FALLING
+      DURATION: 30
+      LEVEL: 0
+    4:
+      EFFECTNAME: SLOW
+      DURATION: 30
+      LEVEL: 0
+  leather:
+      1:
+        EFFECTNAME: SPEED
+        DURATION: 30
+        LEVEL: 1
+      2:
+        EFFECTNAME: JUMP
+        DURATION: 30
+        LEVEL: 2
+      3:
+        EFFECTNAME: NIGHT_VISION
+        DURATION: 400
+        LEVEL: 0
+      4:
+        EFFECTNAME: WEAKNESS
+        DURATION: 30
+        LEVEL: 0
+      5:
+        EFFECTNAME: DOLPHINS_GRACE
+        DURATION: 30
+        LEVEL: 0
