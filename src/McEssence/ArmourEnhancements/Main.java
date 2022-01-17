@@ -89,11 +89,11 @@ public class Main extends JavaPlugin {
     }
 
     private Boolean checkArmourPiece(ItemStack armourPiece, Material desiredArmourPiece){
-        if (armourPiece == null) {
+        if (armourPiece == null && desiredArmourPiece != Material.AIR) {
             return false;
         }
 
-        if (armourPiece.getType() != desiredArmourPiece) {
+        if (armourPiece != null && (armourPiece.getType() != desiredArmourPiece)) {
             return false;
         }
 
